@@ -1,0 +1,80 @@
+
+.page{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5%;
+    flex-wrap: wrap;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.bloc{
+  margin-top : 10%;
+  margin-bottom: 10%;   
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-bottom: 1%;
+  background-color: #F5F5F5;
+  width: 35vw;
+  height: 70vh;
+}
+
+   
+.textpage{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  
+}
+
+.pagetext{
+    font-size: 75%;
+    font-family: avenir;
+    margin-left: 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.pagetitre{
+    font-size: 150%;
+    font-weight: 700;
+    font-family: avenir;
+    margin-left: 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+
+
+.picturepage{
+    width: 35vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+   
+}
+
+.containerbutton{
+    height: 8vh;
+    width: 10vw;
+    margin: 10%;
+    font-family: avenir;
+    font-weight: 1000;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border-width: 1.2px;
+    
+}
+

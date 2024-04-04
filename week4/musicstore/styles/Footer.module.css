@@ -1,0 +1,17 @@
+
+.footer{
+    margin-top: 5%;
+    background-color: black;
+    height: 20vh;
+}
+
+.textfooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    padding-top: 3%;
+    font-family: avenir;
+    font-size: 80%;
+}

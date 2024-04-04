@@ -1,0 +1,49 @@
+.container{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    margin-top: 5%;
+}
+.texto{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.conatinertext{
+    font-size: 12px;
+    font-family: avenir;
+    text-align: center;
+    padding-top: 2%;
+    
+}
+
+.conatinertitre{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: avenir;
+    text-align: center;
+
+}
+
+.containerpicture{
+    height: 40vh;
+    width: 80vw;
+    margin: 0.1%;
+}
+
+.containerbutton{
+  width: 200px;
+  height: 600px;
+  margin: 1%;
+  font-family: avenir;
+  font-weight: 1000;
+  border-radius: 10px;
+  background-color: black;
+  color: white; 
+  border-width: 1.2px;
+}

@@ -1,0 +1,125 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 4rem 0;
+  background-color: #FFFEF2;
+}
+
+.title {
+  line-height: 1.15;
+  font-size: 4rem;
+}
+
+.title a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.title a:hover, .title a:focus, .title a:active {
+  text-decoration: underline;
+}
+
+
+
+
+.triangle{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.trianglegauche{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.triangleA{
+  display : inline-block;
+  height : 0;
+  width : 0;
+  border-top : 98px solid transparent;
+  border-bottom : 98px solid transparent;
+  border-left : 400px solid black;
+ }
+ .triangleB{
+  display : inline-block;
+  height : 0;
+  width : 0;
+  border-top : 98px solid transparent;
+  border-bottom : 98px solid transparent;
+  border-left : 400px solid red;
+ }
+ .triangleC{
+  display : inline-block;
+  height : 0;
+  width : 0;
+  border-top : 98px solid transparent;
+  border-bottom : 98px solid transparent;
+  border-left : 400px solid black;
+ }
+
+ .triangledroit{
+  display: flex;
+  flex-direction: column;
+  transform: rotate(180deg);
+
+}
+
+
+
+ .triangleD{
+  display : inline-block;
+  height : 0;
+  width : 0;
+  border-top : 98px solid transparent;
+  border-bottom : 98px solid transparent;
+  border-left : 400px solid black;
+ }
+ .triangleE{
+  display : inline-block;
+  height : 0;
+  width : 0;
+  border-top : 98px solid transparent;
+  border-bottom : 98px solid transparent;
+  border-left : 400px solid red;
+ }
+
+ .triangleF{
+  display : inline-block;
+  height : 0;
+  width : 0;
+  border-top : 98px solid transparent;
+  border-bottom : 98px solid transparent;
+  border-left : 400px solid black;
+ }
+
+ .rond{
+  width: 400px;
+  height: 400px;
+  border-radius: 200px;
+  background: #30532B;
+  margin-top: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+ 
+ }
+
+
+
+ .logo{
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  margin-top: 4%;
+  
+ }

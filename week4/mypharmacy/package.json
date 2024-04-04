@@ -1,0 +1,12 @@
+{
+	"name": "pharmacymanager",
+	"version": "1.0.0",
+	"private": true,
+	"scripts": {
+		"start": "node app.js"
+	},
+	"devDependencies": {
+		"jest": "^29.5.0",
+		"supertest": "^6.3.3"
+	}
+}

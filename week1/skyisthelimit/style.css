@@ -1,0 +1,58 @@
+
+    
+body {
+    background-color: #3D4C67;
+    opacity: 0.9;
+    margin: 0;
+}
+
+#header {
+    background-image: url(./assets/background.jpg);
+    background-position: center center;
+    background-size: cover;
+    padding: 100px;
+    padding-bottom: 400px;    
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 85px;
+}
+h1 { 
+    font-size: 35px;
+    color:white;
+    text-align: center;
+    display: block;
+}
+
+#container { 
+    background-color:white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 100px;
+    margin-left: 100px;
+    padding: 19px;
+}
+.image1 {
+    float: left;
+    height: 160px;
+    width: 200px;
+    margin-right: 15px;
+    border-radius: 10%;
+}   
+
+h2 {
+     font-size: 25px;
+}
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    padding-bottom: 25px;
+   
+    
+}
+
+
+
+
